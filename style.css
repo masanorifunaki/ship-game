@@ -1,0 +1,27 @@
+#main {
+  width: 800px;
+  height: 600px;
+  background-color: #00cc00;
+  position: absolute;
+  overflow: hidden;
+}
+
+#ship {
+  top: 250px;
+  left: 0px;
+  position: absolute;
+  z-index: 100;
+}
+
+#bang {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 101;
+  visibility: hidden;
+}
+
+.start {
+  position: relative;
+  left: 0px;
+}
